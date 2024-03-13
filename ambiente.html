@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cardizin</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .card img{
+            width: 180px;
+            height: 260px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+        .card div{
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            padding: 12px;
+            display: flex;
+            text-align: center;
+            box-shadow: 4px 10px 12px rgba(0, 0, 0, 0.281);
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="card">
+        <div>
+            <img src="abacaxi.jpg" alt="">
+            <h1>Titulo</h1>
+            <h2>descrisao</h2>
+            <span>5,50</span>
+        </div>
+    </div>
 </body>
 </html>
